@@ -14,12 +14,12 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from '../environments/environment';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { SignInComponent } from './components/sign-in/sign-in.component';
-import { SignUpComponent } from './components/sign-up/sign-up.component';
-import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
-import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
-import { AuthService } from "./shared/services/auth.service";
+import { DashboardComponent } from './components/dashboard';
+import { SignInComponent } from './components/sign-in';
+import { SignUpComponent } from './components/sign-up';
+import { ForgotPasswordComponent } from './components/forgot-password';
+import { VerifyEmailComponent } from './components/verify-email';
+import { AuthService } from "./shared/services";
 
 @NgModule({
   declarations: [

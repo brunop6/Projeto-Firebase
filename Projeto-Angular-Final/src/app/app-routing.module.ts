@@ -8,7 +8,7 @@ import { SignUpComponent } from './components/sign-up';
 import { DashboardComponent } from './components/dashboard';
 import { ForgotPasswordComponent } from './components/forgot-password';
 import { VerifyEmailComponent } from './components/verify-email';
-import { AuthGuard } from './shared/guard/';
+import { AuthGuard } from './shared/guard';
 
 export const routes: Routes = [
 	{ path: '', redirectTo: '/sign-in', pathMatch: 'full' },
