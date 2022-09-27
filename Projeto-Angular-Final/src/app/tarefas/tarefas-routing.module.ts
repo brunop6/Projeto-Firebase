@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { CadastrarTarefaComponent } from './cadastrar';
 import { EditarTarefaComponent } from './editar';
 import { ListarTarefaComponent } from './listar';
+import { AuthGuard } from './../shared/guard/auth.guard';
 
 export const TarefaRoutes: Routes = [
   {
@@ -10,14 +11,17 @@ export const TarefaRoutes: Routes = [
   },
   {
     path: 'tarefas/listar',
-    component: ListarTarefaComponent
+    component: ListarTarefaComponent,
+		canActivate: [ AuthGuard ]
   },
   {
     path: 'tarefas/cadastrar',
-    component: CadastrarTarefaComponent
+    component: CadastrarTarefaComponent,
+		canActivate: [ AuthGuard ]
   },
   {
     path: 'tarefas/editar/:id',
-    component: EditarTarefaComponent
+    component: EditarTarefaComponent,
+		canActivate: [ AuthGuard ]
   }
 ];
