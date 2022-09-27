@@ -1,0 +1,33 @@
+select {
+  float: left;
+  margin: 2px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+div {
+  float: left;
+}
+
+select {
+  display: block;
+  outline: none;
+  border: 2px solid #D1CDCD;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: left;
+  color: black;
+  width: 400px;
+  transition: .5s;
+}
+
+select:focus {
+  box-shadow: 0 0 5px #363636;
+}

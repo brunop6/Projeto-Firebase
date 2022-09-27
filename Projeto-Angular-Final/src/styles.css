@@ -1,0 +1,83 @@
+/* Estilização Geral */
+.navbar {
+  margin: 0 !important;
+}
+
+label {
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #333;
+  transition: .5s;
+}
+
+.dark-mode .navbar {
+  background-color: #9d9d9d;
+  transition: .5s;
+}
+
+.dark-mode a {
+  color: #333 !important;
+}
+
+.dark-mode .dropdown-menu {
+  background-color: black !important;
+}
+
+.dark-mode .dropdown-menu a {
+  color: white !important;
+}
+
+.dark-mode .dropdown-menu a:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Estilização Calculadora */
+.dark-mode .btn-default {
+  background-color: #9d9d9d !important;
+  border-color: black;
+  color: white;
+  transition: .5s;
+}
+
+.dark-mode .btn-default:hover {
+  background-color: rgb(212, 212, 212) !important;
+  border-color: black;
+}
+
+.dark-mode #display {
+  background-color: #9d9d9d !important;
+  color: white;
+  transition: .5s;
+}
+
+/* Estilização Lista de Tarefas */
+.dark-mode h1 ,
+.dark-mode .done {
+  color: white;
+  transition: .5s;
+}
+
+.dark-mode .table th {
+  background-color: #333;
+  color: white;
+  transition: .5s;
+}
+
+.dark-mode tr{
+  background-color: #333 !important;
+  transition: .5s;
+}
+
+.dark-mode tr .success {
+  background-color: #b1c9a9 !important;
+  transition: .5s;
+}
+
+.dark-mode tr .success:hover {
+  background-color: #97ad8f !important;
+  transition: .5s;
+}
