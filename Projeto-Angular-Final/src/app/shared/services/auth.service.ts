@@ -7,9 +7,11 @@ import {
   AngularFirestoreDocument,
 } from '@angular/fire/compat/firestore';
 import { Router } from '@angular/router';
+
 @Injectable({
   providedIn: 'root',
 })
+
 export class AuthService {
   userData: any; // Save logged in user data
   constructor(
